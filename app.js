@@ -36,7 +36,7 @@ app.use(express.json())
 
 const restaurantRoute =require('./route/restaurantRoute')
 
-const allowedOrigins = [   "http://localhost:5173"]
+const allowedOrigins = [   "https://classy-basbousa-faedb0.netlify.app/","http://localhost:5173"]
 
 
 app.use(
